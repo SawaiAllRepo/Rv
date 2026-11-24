@@ -1,0 +1,14 @@
+node_modules
+dist
+.vercel
+.DS_Store
+*.local
+
+# Local environment variables — never commit secrets.
+# .env.example and .env.production ARE committed on purpose:
+#  - .env.example  -> documented template
+#  - .env.production -> public VITE_* build config (inlined into the bundle)
+.env
+.env.*
+!.env.example
+!.env.production
